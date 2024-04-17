@@ -73,3 +73,50 @@ body {
    border: 1px solid #888;
    border-radius: 5px;
   }
+
+
+  footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+    font-size: 17px;
+}
+
+footer .row{
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+footer .row1{
+    margin-left: 40px;
+}
+
+footer .row.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .row.row2 ul{
+    display: flex;
+}
+
+footer .row.row2 ul li{
+    list-style: none;
+}
+
+footer .row.row2 ul li a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 25px;
+}
+
+
+.prg{
+  position: absolute;
+  margin-top: 120px; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
